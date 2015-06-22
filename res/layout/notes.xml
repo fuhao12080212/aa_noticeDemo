@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/tags_bg"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:id="@+id/tagsTable"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="25dip"
+        android:layout_marginRight="25dip"
+        android:layout_marginTop="40dip"
+        android:layout_marginBottom="80dip"
+        android:shrinkColumns="*"
+        android:scrollbars="vertical"
+        android:layout_centerInParent="true" >
+        <!-- 
+         
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/tags" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dip"
+                    android:layout_marginTop="12dip"
+                    android:text="2014-10-21"
+                    android:textColor="#8B6508" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:maxEms="6"
+                    android:singleLine="false"
+                    android:text="会议通知：12：15学院二层"
+                    android:textColor="#8B6508"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/tags" />
+            </RelativeLayout>
+        </TableRow>
+       -->
+    </TableLayout>
+
+</RelativeLayout>
